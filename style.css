@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(44, 43, 43);
+}
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
+.profileImage{
+    margin-left: 25px;
+    height: 150px;
+    width: 150px;
+}
+.cardBorder{
+    background-image: url("shutterstock_466156970.jpg");
+    background-size: contain;
+
+    border-radius: 15px;
+    border: 3px solid rgba(65, 64, 64, 0.8);
+    display: flex;
+    flex-direction: row;
+    height: 330px;
+    width: 230px;
+}
+.cardPrimary{
+    background-image: url("shutterstock_391998307.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    border: 1px solid rgb(54, 54, 54);
+    padding: 7px;
+    margin-left: 9px;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column ;
+    height: 295px;
+    width: 195px;
+        
+    box-shadow:
+    2px 2px 18px rgba(0, 0, 0, 0.99),
+    -2px -2px 18px rgba(0, 0, 0, 0.99),
+    inset 12px 12px 32px rgba(0, 0, 0, 0.5),
+    inset -12px -12px 32px rgba(0, 0, 0, 0.5), 
+    inset 12px 12px 32px rgba(0, 0, 0, 0.5),
+    inset -12px -12px 32px rgba(0, 0, 0, 0.5),
+    inset 7px 7px 12px rgba(0, 0, 0, 0.9),
+    inset -7px -7px 12px rgba(0, 0, 0, 0.9), 
+    inset 5px 5px 8px rgba(0, 0, 0, 0.8),
+    inset -5px -5px 8px rgba(0, 0, 0, 0.8);
+}
